@@ -1,5 +1,5 @@
 [package]
-name = "cortex-m3"
+name = "cortex_m3_rt"
 version = "0.1.0"
 edition = "2018"
 
@@ -9,9 +9,7 @@ panic = "abort"
 [profile.dev]
 panic = "abort"
 
-[[bin]]
-name = "cortex-m3"
-path="src/main.rs"
+[lib]
 test=false
 doctest=false
 bench=false

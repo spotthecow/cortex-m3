@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "cortex-m3"
+name = "cortex_m3_rt"
 version = "0.1.0"
