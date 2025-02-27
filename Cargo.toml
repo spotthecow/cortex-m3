@@ -1,0 +1,19 @@
+[package]
+name = "cortex-m3"
+version = "0.1.0"
+edition = "2018"
+
+[profile.release]
+panic = "abort"
+
+[profile.dev]
+panic = "abort"
+
+[[bin]]
+name = "cortex-m3"
+path="src/main.rs"
+test=false
+doctest=false
+bench=false
+
+[dependencies]
